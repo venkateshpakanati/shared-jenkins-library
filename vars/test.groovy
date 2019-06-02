@@ -7,11 +7,11 @@
           echo "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
           podTemplate(label: 'test-pod', 
      containers: [
-     containerTemplate(
-          name: 'jnlp',
-          image: 'jenkinsci/jnlp-slave:3.10-1-alpine',
-          args: '${computer.jnlpmac} ${computer.name}'
-     ),
+     // containerTemplate(
+     //      name: 'jnlp',
+     //      image: 'jenkinsci/jnlp-slave:3.10-1-alpine',
+     //      args: '${computer.jnlpmac} ${computer.name}'
+     // ),
      containerTemplate(
           name: 'maven',
           image: 'zenika/alpine-maven',
