@@ -2,7 +2,7 @@
      //     echo "Test >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
      // }
 
-#!/usr/bin/groovy
+// #!/usr/bin/groovy
 public class test implements Serializable {
     public String podlabel
     public String workingdir
