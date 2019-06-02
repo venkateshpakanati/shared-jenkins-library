@@ -3,7 +3,7 @@
      // }
 
 #!/usr/bin/groovy
-public class PodTemplates implements Serializable {
+public class test implements Serializable {
     public String podlabel
     public String workingdir
     public String memLmt
@@ -14,7 +14,7 @@ public class PodTemplates implements Serializable {
     public Map images
     def inputcontainers = []
 
-    public PodTemplates(String label,
+    public test(String label,
                       Map images,
                       String workingdir,
                       script) {
