@@ -4,4 +4,5 @@
 
  def call(Closure body) {
       echo "Test closure body >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+      echo "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
  }
